@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de textos</title>
+    <style>
+        mark {
+            background-color: chocolate;
+        }
+    </style>
+</head>
+<body>
+    <h1>Principais formatações</h1>
+    <h2>negrito / destaque:</h2>
+    <p><b>texto em negrito usando a tag &lt;b&gt;(não semântica)</b></p>
+    <p>nesta frase temos um <strong>termo em destaque</strong>  usando a tag &lt;STRONG&gt;(sem semântica)</h2>
+
+    <h2>Itálico / Enfâse</h2>
+    <p>termo em semântica</p>
+    texto em tálico:<i>termo em Itálico</i>(não semântica)</p>
+    <p>Neste texto temos  um termo em <em>ênfase usando a tag </em> EM(semântica)</p>
+
+    <h2>Texto marcado</h2>
+    <p>podemos criar um <mark style="background-color: rgb(170, 202, 25);">  texto marcado</mark> com a tag &lt;mark&gt;</p>
+    <p>aqui temos outro <mark>texto marcado</mark></p>
+
+    <h2>texto grande e pequeno</h2>
+    <p>aqui temos um <big>texto grande</big> e um <small>texto pequeno</small></p>
+
+    <h2>texto deletado</h2>
+    <p>podemos marcar um <del>texto como delatado</del> para indicar que ele deve ser lido, mas não considerado</p>
+    <h2>texto inserido</h2>
+    <p>podemos marcar um <ins>texto como inserido</ins> para dar uma enfâse e indicar que ele deve ser lido, mas não incluido</p>
+
+    <h2>texto sobrescrito</h2>
+    <p>paraa inserir coisas como 23y<sup>2</sup>+</p>
+    <p>também para escrever coisas do tipo h2<sub>o</sub></p>
+
+        <h1>Outras formatações</h1>
+    <h2>código fonte</h2>
+    <p>o comando <code>document getElementByld('teste')</code> é escrito em linguagem JavaScript</p>
+    <pre>
+        <code>
+num = int(input('digite um numero: '))
+if num % 2 == 0:
+    print(f'o numero {num} é PAR')
+else:
+    print(f'o numero {num} é IMPAR')
+print('fim do programa')
+         </code>
+    </pre>
+    <p>como diria o pai de um amigo <q>o computador é um burro muito rápido</q></p>
+    <p>segundo Steven Jobs </p>
+    <blockquote cite="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0qhf_5Ta5cE7unMIlVqqBG8JS2g5PmtWHVg&s"> 
+        <q>eu toco a orquestra</q>
+    </blockquote>
+    <h2>abreviações</h2>
+    <p>estou estudando <abbr title="hypertext markup language">HTML</abbr> e <abbr title="cascading style sheets">CSS</abbr>, estou muito feliz</p>
+    <h2>texto invertido</h2>
+    <p><bdo dir="rtl">oi uo uio io eee</bdo></p>
+</body>
+</html>

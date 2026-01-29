@@ -1,0 +1,10 @@
+<html>
+    <head>
+        <title>meu site em html4</title>
+    </head>
+    <body> bgcolor="blue"
+        <center><h1>execicio de html4</h1></center>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, neque voluptas adipisci provident est laudantium soluta vitae aspernatur eligendi esse dicta! Ea non esse reiciendis. Iste dignissimos accusamus dolorum sit!</p>
+        <p><font color="white">teste html4</font></p>
+    </body>
+</html>

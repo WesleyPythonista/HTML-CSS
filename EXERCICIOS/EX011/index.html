@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em html5</title>
+</head>
+<body>
+    <h1>Imagens dinâmica</h1>
+    <p>tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador. </p>
+
+    <picture>
+        <source media="(max-width: 700px)" srcset="imagens/imagem-p.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="imagens/imagem-M.png" type="image/png">
+        <img src="imagens/Imagem-G.png" alt="Imagem flexível">
+    </picture> 
+
+    <h1>Reproduzindo Áudios</h1>
+    <p>audio em html5</p>
+    <audio preload="metadata", controls>
+        <source src="midia/feliz.mp3" type="audio/mpeg">
+        <source src="midia/feliz.mp3" type="audio/ogg">
+        <source src="midia/feliz.mp3" type="audio/wav">
+        <p>Infelizmente o seu navegador suporta este audio, abra <a href="midia/feliz.mp3">"midia/feliz.mp3"</a></p>
+    </audio>
+</body>
+</html>
